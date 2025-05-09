@@ -1,0 +1,7 @@
+echo "# mar25-t1w2-git-intro" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:SharsPlace/mar25-t1w2-git-intro.git
+git push -u origin main
